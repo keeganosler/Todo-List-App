@@ -1,0 +1,83 @@
+.todoListMain .header input {
+    padding: 10px;
+    padding-left:15px;
+    font-size: 20px;
+    width: 165px;
+    border: solid white;
+    border-radius:5px;
+}
+
+.todoListMain .header button {
+    padding: 10px;
+    font-size: 20px;
+    margin: 0;
+    margin-right: 0px;
+    background-color:forestgreen;
+    color: white;
+    border:solid forestgreen;
+    border-radius:5px;
+}
+
+.todoListMain .header button:hover {
+    background-color:darkgreen;
+    border: 2px solid darkgreen;
+    cursor: pointer;
+}
+
+.todoListMain .subheader input {
+    padding: 10px;
+    padding-left:15px;
+    font-size: 20px;
+    width: 165px;
+    border: solid white;
+    border-radius:5px;
+}
+
+.todoListMain .subheader button {
+    padding: 10px;
+    font-size: 20px;
+    margin: 0;
+    margin-right: 0px;
+    background-color:forestgreen;
+    color: white;
+    border:solid forestgreen;
+    border-radius:5px;
+}
+
+.todoListMain .subheader button:hover {
+    background-color:darkgreen;
+    border: 2px solid darkgreen;
+    cursor: pointer;
+}
+
+.todoListMain .itemList {
+    list-style: none;
+    padding-left: 0;
+    width: 271px;
+} 
+
+.todoListMain .itemList li {
+    color: black;
+    background-color:white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    list-style: none;
+    transition: background-color .2s ease-out;
+}
+
+.todoListMain .itemList li:hover{
+    background-color:darkseagreen;
+    cursor:pointer;
+}
+
+ul.theList {
+    padding: 0;
+}
+
+@media and screen (max-width:600px){
+    .todoListMain .header input{
+        width:100px;
+    }
+
+}
