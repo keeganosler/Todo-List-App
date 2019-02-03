@@ -1,6 +1,8 @@
 # Todo-List-App
 
-Simple web-based to do list app using React
+Simple web-based to do list app using React.
+
+This is what the app looks like once you've entered a few tasks into the list.
 
 ![screenshot](https://github.com/keeganosler/Todo-List-App/blob/master/screen.JPG)
 
